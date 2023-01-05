@@ -1,0 +1,12 @@
+html{
+  font-size: 62.5%;
+}
+
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  padding: 0;
+  scroll-behavior: smooth;
+}
