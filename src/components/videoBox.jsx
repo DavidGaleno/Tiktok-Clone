@@ -72,7 +72,7 @@ useEffect(()=>{
               </div>
             <video className='video' onClick={()=>handleVideoClick(index)} onPause={()=>{setPlay(false)
             setShowIcons(true)}} onPlay={()=>{setPlay(true)
-            setShowIcons(false)}}  onEnded={()=>handleVideoEnd(index)}  muted>
+            setShowIcons(false)}}  onEnded={()=>handleVideoEnd(index)} muted>
               <source src={source} type='video/mp4'></source>
             </video>
             {showIcons && <div className='right-icons'>
